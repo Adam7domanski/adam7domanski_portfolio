@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import MyButton from './components/MyButton';
+import About from './components/About';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           Learn React
         </a>
         <MyButton name="Google" link="https://www.google.com" />
+        <About />
       </header>
     </div>
   );

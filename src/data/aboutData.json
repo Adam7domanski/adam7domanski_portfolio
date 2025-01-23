@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Software Engineer",
+        "description": "Experienced in developing scalable web applications and working with various programming languages.",
+        "yearsOfExperience": 5,
+        "dateFrom": "2016-01-01",
+        "dateTo": "2021-01-01"
+    },
+    {
+        "id": 2,
+        "title": "Full Stack Developer",
+        "description": "Proficient in both front-end and back-end development, with a strong understanding of databases and server management.",
+        "yearsOfExperience": 3,
+        "dateFrom": "2018-01-01",
+        "dateTo": "2021-01-01"
+    },
+    {
+        "id": 3,
+        "title": "DevOps Engineer",
+        "description": "Skilled in automating processes, managing CI/CD pipelines, and ensuring system reliability and performance.",
+        "yearsOfExperience": 4,
+        "dateFrom": "2017-01-01",
+        "dateTo": "2021-01-01"
+    }
+]
