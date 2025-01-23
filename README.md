@@ -2,9 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Projec scope
 
-In the project directory, you can run:
+This project is meant to be my virtual CV, showing my basic skills in web development and serve as aplace to present the other projets I was involved in. I;ve decide to prepare it in single page application fasion.
+
+Page contains several sections:
+
+### `About section`
+contains vertical timeline showing work experiance sorted by date. Date can be easyliy addedinto a corresponding Json file.
 
 ### `projec principles`
 1 - Consistent component formating as function declarations.
@@ -37,6 +42,10 @@ Conclusion:
 
 By following these best practices for React component design, you'll be able to create cleaner, more maintainable, and reusable components. Each practice reinforces important principles such as single responsibility, reusability, prop validation, and performance optimisation. Incorporating these practices into your React projects will contribute to better code quality, improved developer experience, and ultimately, more robust applications.
 Remember, mastering these best practices requires practice and continuous learning. Stay up-to-date with the evolving React ecosystem and always strive for code that is efficient, readable, and easy to maintain.
+
+## Available Scripts
+
+In the project directory, you can run:
 
 ### `npm start`
 
