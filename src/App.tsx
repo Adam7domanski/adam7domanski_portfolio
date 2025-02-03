@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import MyButton from './components/MyButton';
 import About from './components/About';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         </a>
         <MyButton name="Google" link="https://www.google.com" />
         <About />
+        <Projects />
       </header>
     </div>
   );

@@ -1,0 +1,39 @@
+.projectTiel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.projectMedia {
+    width: 100%;
+    height: auto;
+}
+
+.projectContent {
+    padding: 10px;
+    text-align: center;
+}
+
+.projectTitle {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.projectDescription {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.projectTechStack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.techStackElement {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+}

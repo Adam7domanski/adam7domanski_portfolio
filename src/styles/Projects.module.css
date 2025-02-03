@@ -1,0 +1,12 @@
+.projectsContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+    .projectsContainer {
+        grid-template-columns: 1fr 1fr;
+    }
+}

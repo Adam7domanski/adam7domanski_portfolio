@@ -1,0 +1,14 @@
+[
+    {
+        "media": "../resources/project.png",
+        "title": "Project Title 1",
+        "description": "Description of Project 1",
+        "techstackElements": "React, TypeScript, CSS"
+    },
+    {
+        "media": "../resources/project.png",
+        "title": "Project Title 2",
+        "description": "Description of Project 2",
+        "techstackElements": "Node.js, Express, MongoDB"
+    }
+]
