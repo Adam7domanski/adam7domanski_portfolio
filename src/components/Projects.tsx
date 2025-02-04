@@ -34,7 +34,7 @@ class Projects extends Component<{}, ProjectsState> {
                 {projects.map((project, index) => (
                     <ProjecTiel
                         key={index}
-                        media={project.media}
+                        media={require('../resources/' + project.media)}
                         title={project.title}
                         description={project.description}
                         techstackElements={project.techstackElements}
