@@ -8,6 +8,12 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+.buttonIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    fill: white; /* Ensure the icon color matches the button text color */
+}
 
 .errorButton:hover {
     background-color: darkred;
