@@ -3,8 +3,9 @@
     flex-direction: column;
     align-items: center;
     margin: 20px;
-    border: 1px solid white;
     border-radius: 10px;
+    background-color: var(--clr-surface-a10);
+ 
 }
 
 .projectMedia {
@@ -34,11 +35,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border-color: var(--clr-surface-a30);
+
 }
 
 .techStackElement {
-    background-color: #f0f0f0;
+    font-size: 0.5em;
+    font-family: monospace;
     border-radius: 5px;
     padding: 5px 10px;
     margin: 5px;
+    border: 1px solid var(--clr-surface-a30);
 }
