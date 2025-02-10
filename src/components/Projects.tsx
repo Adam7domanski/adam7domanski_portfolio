@@ -8,6 +8,8 @@ interface Project {
     title: string;
     description: string;
     techstackElements: string;
+    githubLink?: string | undefined;
+    websiteLink?: string | undefined;
 }
 
 interface ProjectsState {
@@ -38,6 +40,8 @@ class Projects extends Component<{}, ProjectsState> {
                         title={project.title}
                         description={project.description}
                         techstackElements={project.techstackElements}
+                        githubLink={project.githubLink}
+                        websiteLink={project.websiteLink}
                     />
                 ))}
             </div>

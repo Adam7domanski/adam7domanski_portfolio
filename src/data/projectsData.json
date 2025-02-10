@@ -3,12 +3,22 @@
         "media": "project.png",
         "title": "Project Title 1",
         "description": "Description of Project 1",
-        "techstackElements": "React, TypeScript, CSS"
+        "techstackElements": "React, TypeScript, CSS",
+        "githubLink":"https://github.com",
+        "websiteLink":"https://github.com"
     },
     {
         "media": "project.png",
         "title": "Project Title 2",
         "description": "Description of Project 2",
-        "techstackElements": "Node.js, Express, MongoDB"
+        "techstackElements": "Node.js, Express, MongoDB",
+        "websiteLink":"https://github.com"
+    },
+    {
+        "media": "project.png",
+        "title": "Project Title 3",
+        "description": "Description of Project 3",
+        "techstackElements": "Node.js, Express, MongoDB",
+        "websiteLink":"https://github.com"
     }
 ]

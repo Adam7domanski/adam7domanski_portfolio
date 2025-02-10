@@ -1,20 +1,27 @@
-.errorButton {
-    background-color: red;
+.myButton {
+    background-color: var(--clr-primary-a10);
     color: white;
     border: none;
-    padding: 10px 20px;
-    font-size: 16px;
     border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 0.5em;
+    font-family: monospace;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin:5px;
+    
+
+
+
 }
 .buttonIcon {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    
     fill: white; /* Ensure the icon color matches the button text color */
 }
 
-.errorButton:hover {
-    background-color: darkred;
+.myButton:hover {
+    background-color: var(--clr-primary-a0);
 }

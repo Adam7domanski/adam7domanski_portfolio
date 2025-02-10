@@ -21,7 +21,7 @@ function App() {
         >
           Learn React
         </a>
-        <MyButton icon="github-mark.svg" name="Google" link="https://www.google.com" />
+        <MyButton icon="github.svg" name="Google" link="https://www.google.com" />
         <About />
         <Projects />
       </header>

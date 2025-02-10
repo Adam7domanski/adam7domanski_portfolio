@@ -28,10 +28,10 @@ const About: React.FC = () => {
         <VerticalTimelineElement
             key={index}
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: 'var(--clr-surface-a10)', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  var(--clr-primary-a10)' }}
             date={`${item.dateFrom} - ${item.dateTo}`}
-            iconStyle={{ background: 'rgb(33, 150, 243)'}}
+            iconStyle={{ background: 'var(--clr-primary-a20)'}}
             icon={<img src={workIcon} className={styles['work-icon']} alt="work-icon1"/>}
         >
             <h3 className="vertical-timeline-element-title">{item.title}</h3>

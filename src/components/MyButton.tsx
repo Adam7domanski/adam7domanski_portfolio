@@ -12,7 +12,7 @@ function MyButton({icon, name, link}: ButtonProps){
         window.location.href = link;
     };
     
-    return <button className={styles.errorButton} onClick={handleClick}>
+    return <button className={styles.myButton} onClick={handleClick}>
         <img src={require('../resources/' + icon)} alt={name} className={styles.buttonIcon} />
         {name}
     
