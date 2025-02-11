@@ -23,6 +23,7 @@ function App() {
         </a>
         <MyButton icon="github.svg" name="Google" link="https://www.google.com" />
         <About />
+        <hr className='horizontal-devider'/>
         <Projects />
       </header>
     </div>

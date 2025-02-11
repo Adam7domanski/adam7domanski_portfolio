@@ -58,6 +58,14 @@
   color: #61dafb;
 }
 
+.horizontal-devider {
+  width: 90%;
+  height: 1px;
+  background-color: var(--clr-light-a0);
+  border: none;
+  margin: 30px;
+}
+
 
 @keyframes App-logo-spin {
   from {
