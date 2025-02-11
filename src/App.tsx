@@ -4,6 +4,7 @@ import './App.css';
 import MyButton from './components/MyButton';
 import About from './components/About';
 import Projects from './components/Projects';
+import Canvas3d from './components/Canvs3d';
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
         <About />
         <hr className='horizontal-devider'/>
         <Projects />
+        <hr className='horizontal-devider'/>
+        <Canvas3d />
       </header>
     </div>
   );
