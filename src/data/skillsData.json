@@ -1,0 +1,51 @@
+{
+    "Tools": [
+        {
+            "name": "Git",
+            "icon": "Git.svg",
+            "level": "1"
+        },
+        {
+            "name": "VS Code",
+            "icon": "vscode.svg",
+            "level": "2"
+        },
+        {
+            "name": "JIRA",
+            "icon": "jira.svg",
+            "level": "3"
+        }
+    ],
+    "Languages": [
+        {
+            "name": "HTML",
+            "icon": "HTML5.svg",
+            "level": "2"
+        },
+        {
+            "name": "CSS",
+            "icon": "CSS3.svg",
+            "level": "2"
+        },
+        {
+            "name": "JavaScript",
+            "icon": "JavaScript.svg",
+            "level": "3"
+        },
+        {
+            "name": "TypeScript",
+            "icon": "TypeScript.svg",
+            "level": "2"
+        },
+        {
+            "name": "Java",
+            "icon": "java.svg",
+            "level": "2"
+        },
+        {
+            "name": "SQL",
+            "icon": "sql.svg",
+            "level": "2"
+        }
+    ]
+}

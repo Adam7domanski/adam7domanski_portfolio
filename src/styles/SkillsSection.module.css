@@ -1,0 +1,57 @@
+.skillsContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0px;
+}
+
+@media (min-width: 768px) {
+    .skillsContainer {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.skillTiel {
+    background-color: var(--clr-surface-a10);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.skillTitle {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.skillGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+}
+
+.skillItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skillIcon {
+    width: 50px;
+    height: 50px;
+}
+
+.skillName {
+    margin: 5px 0;
+}
+
+.skillLevel {
+    display: flex;
+}
+
+.filledStar {
+    color: gold;
+}
+
+.emptyStar {
+    color: gray;
+}

@@ -3,7 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import MyButton from './components/MyButton';
 import About from './components/About';
-import Projects from './components/Projects';
+import Projects from './components/ProjectsSection';
+import SkillsSection from './components/SkillsSection';
 import Canvas3d from './components/Canvs3d';
 
 function App() {
@@ -26,6 +27,8 @@ function App() {
         <About />
         <hr className='horizontal-devider'/>
         <Projects />
+        <hr className='horizontal-devider'/>
+        <SkillsSection />
         <hr className='horizontal-devider'/>
         <Canvas3d />
       </header>
