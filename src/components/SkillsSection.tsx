@@ -36,6 +36,7 @@ const SkillsSection: React.FC = () => {
             {Object.keys(skills).map((category, index) => (
                 <div key={index} className={styles.skillTiel}>
                     <h3 className={styles.skillTitle}>{category}</h3>
+                    <hr className={styles.horizontalSeparator}/>
                     <div className={styles.skillGrid}>
                         {skills[category].map((skill, skillIndex) => (
                             <div key={skillIndex} className={styles.skillItem}>
