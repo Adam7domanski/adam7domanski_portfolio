@@ -12,7 +12,7 @@ interface SkillsData {
     [key: string]: Skill[];
 }
 
-const SkillsSection: React.FC = () => {
+export default function SkillsSection() {
     const [skills, setSkills] = useState<SkillsData>({});
 
     useEffect(() => {
@@ -52,6 +52,4 @@ const SkillsSection: React.FC = () => {
             ))}
         </div>
     );
-};
-
-export default SkillsSection;
+}
